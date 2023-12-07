@@ -4,25 +4,6 @@ function sortAnarraybyTwoCriteria (arr){
     }
     arr = sortBylength(arr);
     let arrLength = arr.length;
-    // for (let index = 0; index < arrLength; index++){
-    //   let currentElement = arr[index];
-    //   if(index > 0){
-    //     let previousElement = arr[index-1];
-    //     if (currentElement.length === previousElement.length){
-    //       for (let char = 0; char < currentElement.length; char ++){
-    //         let curElChar = currentElement.charCodeAt(char);
-    //         let prevElChar = previousElement.charCodeAt(char);
-    //         if (curElChar < prevElChar){
-    //           arr.splice(index-1,0,currentElement);
-    //           arr.splice(index+1,1);
-    //           break;
-    //         } else if (curElChar > prevElChar){
-    //           break;
-    //         }
-    //       }
-    //     }
-    //   }
-    // }
     let alphabeticalySorted = [];
     let hasSameLength = false;
     for (let index = 0; index < arrLength; index++){
